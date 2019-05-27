@@ -56,4 +56,12 @@ Aplicativo de estacionamento com Api em Nodejs, MongoDB e Vuejs
     <li>Passar uma string de conexão para o backEnd com a conta do MongoDB.<br/>
         mongoose.connect('mongodb+srv://<usuario>:<senha>@home-jfxqp.gcp.mongodb.net/wpark?retryWrites=true', { useNewUrlParser: true });
     </li>
+    <li>
+        Depois de instalar tudo e colocar a string de conexão no arquivo server.js da api. Exclua as pastas node_modules e o arquivo package-lock.json da api e da página e o depois entre na raiz de cada uma delas e roda o comando npm i para reinstalar os módulo.
+    </li>
+    <li>
+        Após isso, entre na raiz do servidor e rode o comando npm run dev. Siga o mesmo passo na pasta da página então estará funcionando o servidor de front e back e poderá utilizar o aplicativo.
+    </li>
+    <li>
+        Qualquer dúvida ou suporte que precisar, pode entrar em contato comigo através do facebook<a href="https://m.facebook.com/willian.bello.963">Willian Bello</a>.
 </ul>
